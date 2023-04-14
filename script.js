@@ -1,4 +1,4 @@
-console.log ("loaded");
+/*console.log ("loaded");
 let carBrand = "Opel";
 console.log ('carBrand',carBrand);
 
@@ -55,4 +55,67 @@ function score(letter){
     return 'Try again!'
   }
 }
-console.log(score())
+console.log(score())*/
+
+
+
+
+
+
+
+
+let username;
+let signupDate;
+
+/*username = 'johnk';
+signupDate = 'October 15, 2013';
+console.log(`Hello, ${username}! You've been a member since ${signupDate}.`);
+
+username = 'alberte';
+signupDate = 'March 20, 2004';
+console.log(`Hello, ${username}! You've been a member since ${signupDate}.`);
+
+username = 'evab';
+signupDate = 'June 4, 2019';
+console.log(`Hello, ${username}! You've been a member since ${signupDate}.`);*/
+
+
+
+function getWelcomeMessage(username, signupDate){
+  console.log(`Hello, ${username}! You've been a member since ${signupDate}.`);
+  return true
+}
+
+/*let userN ="Edit"
+let userLastname="Selmeczi"
+let wholeName = userN+userLastname
+let wholeName = 'Név:{userN} {1+2}'
+console.log(wholeName)*/
+
+/*console.log(getWelcomeMessage("evab","June 4, 2019"))*/
+getWelcomeMessage("johnk","June 4, 2019")
+
+
+if (some expression that can be true or false) {
+  // The code for the "true" branch goes here
+  // That is, the code that we want to run when the above
+  // expression evaluates to true
+  // ...
+  // ...
+  // Potentially many lines of code
+} else if(some expression that can be true or false) {
+// The code for the "true" branch goes here
+  // That is, the code that we want to run when the above
+  // expression evaluates to true
+  // ...
+  // ...
+  // Potentially many lines of code
+}
+else {
+  // The code for the "false" branch goes here
+  // That is, the code that we want to run when the above
+  // expression evaluates to false
+  // ...
+  // ...
+  // Again, potentially many lines of code
+}
